@@ -18,3 +18,6 @@ logging.basicConfig(
     format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
     level=logging.INFO,
 )
+
+# Expose logger to use in other modules
+logging.info("Logging is configured and ready!")
